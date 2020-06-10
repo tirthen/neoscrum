@@ -1,0 +1,119 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.scrum {
+  color: red;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0% 0% 0%;
+}
+
+.receiverForm {
+  border: 0px gray solid;
+  padding: 0%;
+  margin: 0%;
+  box-shadow: 2% 2% 2%;
+}
+
+.loginForm {
+  border: 0px gray solid;
+  padding: 0%;
+  margin: 0%;
+  box-shadow: 2% 2% 2% !important;
+}
+
+.registration {
+  text-align: left;
+}
+
+.list {
+  text-align: right;
+}
+
+#collapsibleNavbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.egodate {
+  float: right;
+}
+
+.card1 {
+  margin: 2%;
+}
+
+.carddiv {
+  width: 100%;
+  justify-content: center;
+}
+
+.card-img-top {
+  width: 50%;
+  justify-content: center;
+  margin: 1% 0% 1% 20%;
+}
+
+textarea {
+  width: 90%;
+  height: 90px;
+}
+
+.btn-outline-success {
+  color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.btn-outline-danger {
+  color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.btn-outline-success:hover {
+  color: #fff !important;
+  border-color: #28a745 !important;
+}
+
+.btn-outline-danger:hover {
+  color: #fff !important;
+  border-color: #dc3545 !important;
+}
